@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sketcher.io</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+</head>
+<body>
+	<h4>Sketcher.io</h4>
+	<div class="sidebar">
+		<ul>
+			<li>
+				<lable for="color">Color:</lable>
+				<input type="color" id="color" />
+			</li>
+			<li>
+				<lable for="weight">Stroke:</lable>
+				<input type="number" id="weight" min="2" max="200" value="3" />
+			</li>
+			<li>
+				<button id="clear"><i class="fa fa-trash"></i></button>
+			</li>
+		</ul>
+	</div>
+	<footer>
+		<p>
+			Created with <i class="fas fa-paint-roller"></i></i> by
+			<a target="_blank" href="https://zacharymcmanus.com">Zachary McManus</a>
+		</p>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
